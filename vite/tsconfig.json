@@ -1,0 +1,33 @@
+/* To learn more about this file see: https://angular.io/config/tsconfig. */
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "baseUrl": "./",
+    "outDir": "./dist/out-tsc",
+    "strict": true,
+    "sourceMap": true,
+    "declaration": false,
+    "experimentalDecorators": true,
+    "moduleResolution": "node",
+    "skipLibCheck": true,
+    "target": "es2022",
+    "module": "es2022",
+    "types": [
+      "vite/client",
+      "node",
+      "@wdio/globals/types",
+      "expect-webdriverio",
+      "@wdio/mocha-framework",
+      "@wdio/browser-runner"
+    ],
+    "lib": [
+      "es2018",
+      "dom"
+    ]
+  },
+//  "angularCompilerOptions": {
+//    "fullTemplateTypeCheck": true,
+//    "strictInjectionParameters": true,
+//    "enableIvy": false
+//  }
+}
